@@ -1,0 +1,5 @@
+h = imfreehand(gca); 
+position = wait(h);
+BW = createMask(h)
+pos = getPosition(h)
+resume(h) 
